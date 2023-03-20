@@ -9,7 +9,7 @@ public abstract class Animal {
 
 
     //////////////////////////////Constructors//////////////////////////////
-    public Animal(){
+    protected Animal(){
         super();
     }
 
@@ -20,7 +20,7 @@ public abstract class Animal {
     public abstract void eat(String food);
 
     public void sleep(int time){
-        
+
     }
 
     public String excrete(){
