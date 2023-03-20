@@ -19,8 +19,8 @@ public abstract class Animal {
     ///////////////////////////////Methods/////////////////////////////////
     public abstract void eat(String food);
 
-    public void sleep(int time) throws Exception{
-        this.wait(time);
+    public void sleep(int time){
+        
     }
 
     public String excrete(){
