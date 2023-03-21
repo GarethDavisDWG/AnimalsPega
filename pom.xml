@@ -20,16 +20,6 @@
             <version>5.9.2</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>my-module-1</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>my-module-2</artifactId>
-            <version>${project.version}</version>
-        </dependency>
     </dependencies>
 
     <properties>
@@ -38,7 +28,7 @@
         <sonar.organization>garethdavisdwg</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
-   
+
     <build>
         <plugins>
             <plugin>
