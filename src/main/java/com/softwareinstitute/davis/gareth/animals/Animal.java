@@ -1,5 +1,7 @@
 package com.softwareinstitute.davis.gareth.animals;
 
+import com.softwareinstitute.davis.gareth.exceptions.VomitException;
+
 public abstract class Animal {
 
     /////////////////////////////Attributes///////////////////////////////
@@ -17,7 +19,7 @@ public abstract class Animal {
 
 
     ///////////////////////////////Methods/////////////////////////////////
-    public abstract void eat(String food);
+    public abstract void eat(String food) throws VomitException;
 
     public void sleep(int time){
 
